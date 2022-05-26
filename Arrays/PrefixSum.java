@@ -1,6 +1,12 @@
 package Arrays;
-
 import java.util.Arrays;
+
+
+/*
+use kadane's algorithm to bring the tc from n^2 to n
+the approach is make a sum variable and itialise it with 0
+then traverse through loop and add the element into sum and update the new array with sum value
+ */
 
 public class PrefixSum {
     public static void main(String[] args) {
